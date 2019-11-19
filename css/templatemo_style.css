@@ -369,9 +369,7 @@ margin-top: -80px;
   color: #fff!important;
 }
 
-.what-we-do .tabs .active .list-item .icon {
-  background-color: #fff;
-}
+
 
 .what-we-do .list-item {
   background-color: #f4f4f4;
@@ -685,9 +683,7 @@ footer a {
   color: #66CC00;
 }
 
-footer a:hover {
-  color: #FC6;
-}
+
 
 footer .social-icons {
   text-align: center;
