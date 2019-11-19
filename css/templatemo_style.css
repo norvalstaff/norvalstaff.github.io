@@ -6,6 +6,11 @@ http://www.templatemo.com/tm-508-power
 
 */
 
+@font-face {
+  src: url(../fonts/PermanentMarker-Regular.ttf);
+  font-family: marker;
+
+
 * {
     margin: 0;
     padding: 0;
@@ -224,6 +229,7 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
+  font-family: marker;
 }
 
 .banner-content {
