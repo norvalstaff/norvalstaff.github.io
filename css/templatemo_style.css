@@ -367,6 +367,7 @@ margin-top: -80px;
 
 
 
+/*         BOTTOM ICONS          */
 
 .what-we-do {
   background-color: #fff;
@@ -382,7 +383,9 @@ margin-top: -80px;
   color: black!important;
   box-shadow: 0 0 6px #339933;
 }
-
+.what-we-do .tabs .active .list-item:hover {
+ box-shadow: 0 0 28px #00FF00; 
+}
 
 
 .what-we-do .list-item {
@@ -393,6 +396,10 @@ margin-top: -80px;
   transition: all 0.5s;
   box-shadow: 0 0 6px #339933;
 }
+.what-we-do .list-item:hover {
+  box-shadow: 0 0 28px #00FF00;
+
+  }
 
 .what-we-do .list-item .icon {
   width: 90px;
