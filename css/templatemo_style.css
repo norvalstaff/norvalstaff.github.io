@@ -72,25 +72,33 @@ p {
 .primary-button a {
   padding: 13px 20px;
   letter-spacing: 0.5px;
-  background-color: #66CC00;
+  background-color: #00CC33;
   color: #fff;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
   text-decoration: none;
+}
+.primary-button a:hover {
+  background-color: #fff;
+  color: #00CC33;
 }
 
 .secondary-button a {
   padding: 13px 20px;
   letter-spacing: 0.5px;
-  background-color: #f2745f;
+  background-color: #00CC33;
   color: #fff;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
   text-decoration: none;
+  transition: .3s;
 }
-
+.secondary-button a:hover {
+  background-color: #fff;
+  color: #00CC33;
+}
 .border-button a {
   padding: 13px 20px;
   letter-spacing: 0.5px;
@@ -115,8 +123,7 @@ p {
   font-size: 28px;
   text-transform: uppercase;
   font-weight: 300;
-  color: #121212;
-}
+  }
 
 .section-heading p {
   color: #7a7a7a;
@@ -129,7 +136,7 @@ p {
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-  background-color: #f2745f;
+  background-color: transparent;
 }
 
 .main-header {
@@ -372,7 +379,7 @@ margin-top: -80px;
 }
 
 .what-we-do .tabs .active .list-item {
-  color: #fff!important;
+  color: black!important;
   box-shadow: 0 0 6px #339933;
 }
 
@@ -384,6 +391,7 @@ margin-top: -80px;
   padding: 40px 0px;
   margin: 15px 0px;
   transition: all 0.5s;
+  box-shadow: 0 0 6px #339933;
 }
 
 .what-we-do .list-item .icon {
@@ -587,7 +595,7 @@ margin-top: -80px;
 }
 
 #blog {
-  padding-bottom: 80px;
+  
 }
 
 #blog .info-post li {
@@ -605,10 +613,6 @@ margin-top: -80px;
 #blog .info-post li i {
   color: #66CC00;
   margin-right: 5px;
-}
-
-#oncall {
-  
 }
 
 
@@ -683,7 +687,7 @@ footer {
 footer p {
   font-size: 14px;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
   margin-bottom: 0px;
   padding: 75px 0px;
 }
@@ -692,7 +696,9 @@ footer a {
   color: #66CC00;
 }
 
-
+footer a:hover {
+  color: #FC6;
+}
 
 footer .social-icons {
   text-align: center;
